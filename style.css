@@ -46,6 +46,35 @@ body{
     height: 414px;
 }
 
+/* Hover Effect */
+
+.link-button:hover a {
+    
+    background-color: palevioletred;
+    
+}
+.see-more:hover h4 {
+    
+    background-color: white;
+    color: palevioletred;
+    
+    
+}
+.see-more:hover .fas {
+
+    color: palevioletred;
+     
+}
+.collection-grid:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+     
+}
+
+.collection-grid{
+    overflow: hidden;
+}
 /* Main section style */
 .popular-collection{
     display: grid;
@@ -62,6 +91,9 @@ body{
     box-shadow: 10px 10px 40px rgb(199, 189, 189);
     
 }
+/* .collection-grid:hover .image.grid-details {
+    transform: scale(1.2em);
+} */
 .grid-title h2{
     font-size: 28px;
     text-align: center;
@@ -111,6 +143,10 @@ body{
     padding-right: 15px
 
 }
+/* .rating #star-2{
+    color: orange;
+
+} */
 .see-more a {
     font-size: 14px;
     font-weight: 600;
@@ -123,4 +159,27 @@ body{
     padding-bottom: 50px;
     
    
+}
+.influencer-footer{
+    background-color: rgb(82, 41, 54);
+    padding: 35px;
+}
+
+.title-footer{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.title-footer  h3{
+   margin-top: o;
+    font-weight: 300;
+}
+.title-footer  h2{
+   
+    font-weight: 300
+    ;
+}
+.title-footer  .fa-copyright{
+   
+    font-size: 15px;
 }
