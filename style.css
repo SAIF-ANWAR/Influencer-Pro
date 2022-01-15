@@ -111,3 +111,16 @@ body{
     padding-right: 15px
 
 }
+.see-more a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    color: rgb(226, 29, 167);
+    display: block;
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    
+   
+}
