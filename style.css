@@ -2,7 +2,7 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif;
       width: 80%;
       padding: 20px 300px;
-      background-color: AAAAAA;
+      background-color: E2DCDC;
 }
 
 /* Header Styles */
@@ -12,7 +12,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
 }
 .title h3{
-    font-size: 24px;
+    font-size: 28px;
 }
 .journey{
     width: 582px;
@@ -47,4 +47,67 @@ body{
 }
 
 /* Main section style */
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.collection-grid{
+    background-color: white;
+    height: 480px;
+    width: 450px;
+    box-shadow: 10px 10px 40px rgb(199, 189, 189);
+    
+}
+.grid-title h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.image img{
+    width: 90%;
+    height: 256px;
+    padding-top: 17.5px;
+    padding-right: 17.5px;
+    padding-left: 18px;
+    border-radius: 8px;
 
+}
+.grid-details{
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.grid-details h3{
+    font-size: 20px;
+    margin: 0;
+    
+}
+.grid-details h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.grid-details p{
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+}
+.rating{
+    font-size: 12px;
+    
+}
+.rating #star{
+    color: orange;
+
+}
+.rating #star-2{
+    color: black;
+    padding-right: 15px
+
+}
