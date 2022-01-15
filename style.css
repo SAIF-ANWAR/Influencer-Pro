@@ -1,0 +1,50 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+      width: 80%;
+      padding: 20px 300px;
+      background-color: AAAAAA;
+}
+
+/* Header Styles */
+
+.top-selling{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.title h3{
+    font-size: 24px;
+}
+.journey{
+    width: 582px;
+    height: 270px;
+    margin-top: 50px;
+}
+.journey h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: 3A3A3A;
+    margin-bottom: 0;
+}
+.journey p{
+    font-size: 16px;
+    color: 3A3A3A;
+    margin-bottom: 30px;
+}
+.journey a{
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(226, 29, 167);
+    padding: 8px 30px;
+    border-radius: 15px;
+}
+.camera{
+    width: 440px;
+    height: 414px;
+}
+
+/* Main section style */
+
