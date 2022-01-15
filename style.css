@@ -1,6 +1,6 @@
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
-      width: 80%;
+      width: 100%;
       padding: 20px 300px;
       background-color: E2DCDC;
 }
@@ -156,6 +156,9 @@ body{
     width: 90%;
    
 }
+
+/* Footer area */
+
 footer{
     background-color: rgb(82, 41, 54);
     margin-top: 30px;
@@ -186,8 +189,13 @@ footer{
 /* Responsiveness */
 /* ........................ */ 
 
-@media (max-width: 767px){
+@media (max-width: 687px){
    
+    body{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 80px;
+    }
     .top-selling{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -247,8 +255,11 @@ footer{
     
 } 
 
-    @media only screen and (min-width: 688px) and (max-width: 992px){
-        
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    body{
+        width: 100%;
+        padding: 0;
+    }
     .top-selling{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -262,9 +273,14 @@ footer{
     .popular-collection{
            display: grid;
            grid-template-columns: repeat(2, 1fr);
-           
-           width: 80%;
+           width: 100%;
        }
+       
+       .collection-grid{
+        background-color: white;
+        height: 450px;
+        width: 400px;
+    }
   
     .camera img{
            width: 80%;
@@ -287,14 +303,7 @@ footer{
        
     }
     
-    .collection-grid{
-        background-color: white;
-        height: 450px;
-        width: 400px;
-    }
-    footer{
-        width: 100%;
-        
-    }
+  
+    
 }
 
