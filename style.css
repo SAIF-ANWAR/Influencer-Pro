@@ -189,12 +189,18 @@ footer{
 /* Responsiveness */
 /* ........................ */ 
 
+<<<<<<< HEAD
 @media (max-width: 687px){
    
     body{
         width: 100%;
         padding-right: 0;
         padding-left: 80px;
+=======
+@media (max-width: 767px){
+    body{
+        pading: 0;
+>>>>>>> f89562a9a70d5b7ef3936551ecdf5321d33283a4
     }
     .top-selling{
     display: grid;
